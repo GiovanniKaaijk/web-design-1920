@@ -1,21 +1,21 @@
 WEBVTT
 
 1
-00:00:00.001 --> 00:00:04.000 a:start
-<c.planes><c.sound>Plane engines</c></c>
+00:00:00.001 --> 00:00:03.000 a:start
+<c.planes.fade.4><c.sound>Plane engines</c></c>
 
 2
-00:00:04.000 --> 00:00:05.000
-<v reporter>So lady's and gentleman</v>
+00:00:04.000 --> 00:00:06.000
+<v reporter>Reporter: Lady's and gentleman</v>
 
 3
-00:00:05.000 --> 00:00:05.750
+00:00:06.000 --> 00:00:06.750
 <v reporter>Are</v>
 
 4
-00:00:05.750 --> 00:00:06.500
+00:00:06.750 --> 00:00:08.100
 <v reporter>You</v>
 
 5
-00:00:06.500 --> 00:00:07.250
-<v reporter>Ready?</v>
+00:00:08.100 --> 00:00:09.000
+<v reporter><c.bigger>Ready?</c></v>

@@ -1,3 +1,13 @@
+:root {
+    --fontSize: 30px;
+}
+
+@font-face {
+    font-family: fasterOne;
+    src: url('../fonts/FasterOne-Regular.ttf');
+}
+
+
 body {
     padding: 0;
     margin: 0;
@@ -5,7 +15,7 @@ body {
 video {
     margin: 0 auto;
     display: block;
-    max-height: 800px;
+    height: 85vh;
 }
 
 video:focus {
@@ -13,15 +23,41 @@ video:focus {
 }
 .captions {
     min-width: 500px;
-    min-height: 80px;
+    height: 15vh;
     background-color: rgba(0, 0, 0, 1);
     pointer-events: none;
+}
+
+.captions div div div, .captions div div div span {
+    font-size: 1.6rem;
+    padding: 20px;
+}
+
+.captions .bigger {
+    font-size: 2.4rem;
 }
 
 .captions div {
     background-color: none !important;
 }
 
-.captions * {
+.captions div div {
+    bottom: 20px !important;
+}
+.captions > div {
     pointer-events: none;
 }
+
+.captions > div * {
+    pointer-events: unset;
+}
+
+.captions .planes {
+    font-family: 'fasterOne';
+}
+
+.captions span.sound {
+    font-size: var(--fontSize);
+}
+
+.captions .hide {opacity: 0}
