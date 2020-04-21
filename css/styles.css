@@ -56,6 +56,10 @@ video:focus {
     font-family: 'fasterOne';
 }
 
+.captions .impact {
+    font-family: 'impact';
+}
+
 .captions span.sound {
     font-size: var(--fontSize);
 }
