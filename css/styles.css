@@ -21,28 +21,40 @@ video {
 video:focus {
     outline: none;
 }
-.captions {
+.captions-wrapper {
     min-width: 500px;
     height: 15vh;
     background-color: rgba(0, 0, 0, 1);
     pointer-events: none;
+    position: relative;
+}
+
+.captions {
+    width: 100%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
 }
 
 .captions div div div, .captions div div div span {
     font-size: 1.6rem;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .captions .bigger {
     font-size: 2.4rem;
 }
 
+.captions .crash {
+    font-size: 3.4rem;
+}
 .captions div {
     background-color: none !important;
 }
 
 .captions div div {
-    bottom: 20px !important;
+    /* bottom: 20px !important; */
 }
 .captions > div {
     pointer-events: none;
@@ -52,7 +64,7 @@ video:focus {
     pointer-events: unset;
 }
 
-.captions .planes {
+.captions .cars {
     font-family: 'fasterOne';
 }
 
@@ -65,3 +77,46 @@ video:focus {
 }
 
 .captions .hide {opacity: 0}
+
+.captions.slide {
+    animation: slide .75s ease-in forwards;
+}
+
+.captions.bigslide {
+    animation: bigslide 1.2s cubic-bezier(.97,0,.83,.67) forwards;
+}
+.captions.bigslide-left {
+    animation: bigslideleft 1.2s cubic-bezier(.97,0,.83,.67) forwards;
+}
+
+.captions.party {
+    font-family: 'Comic Neue', cursive;
+    font-weight: 700;
+}
+
+@keyframes slide {
+    from {
+        left:50%;
+    }
+    to {
+        left: 150%;
+    }
+}
+
+@keyframes bigslide {
+    from {
+        left: -30%;
+    }
+    to {
+        left: 150%;
+    }
+}
+
+@keyframes bigslideleft {
+    from {
+        left: 130%;
+    }
+    to {
+        left: -150%;
+    }
+}
