@@ -65,7 +65,7 @@ function draw () {
           captions.classList.remove('bigslide-left')
           spanParent.style.transform = 'rotate(0deg)'
           bigslideLeftToggle = true
-      }, 1600);
+      }, 1700);
     }
     
 }
