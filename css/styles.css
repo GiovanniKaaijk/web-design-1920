@@ -11,6 +11,7 @@
 body {
     padding: 0;
     margin: 0;
+    overflow: hidden;
 }
 video {
     margin: 0 auto;
@@ -89,9 +90,15 @@ video:focus {
     animation: bigslideleft 1.2s cubic-bezier(.97,0,.83,.67) forwards;
 }
 
-.captions.party {
+.captions .party {
     font-family: 'Comic Neue', cursive;
     font-weight: 700;
+    font-size: 2.8rem;
+}
+
+.captions .wide {
+    letter-spacing: .3em;
+    font-size: 2.5rem;
 }
 
 @keyframes slide {

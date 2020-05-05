@@ -62,7 +62,27 @@ WEBVTT
 
 16
 00:00:37.000 --> 00:00:38.400
-<c.party>Yaaayyy!</c>
+<c.bigger.party>Yaaayyy!</c>
+
+16
+00:00:43.000 --> 00:00:44.400
+<c.bigslide.left><c.cars.sound>Car engines</c></c>
+
+17
+00:00:45.000 --> 00:00:47.400
+<v reporter>Well <c.impact.bigger>this</c> is a proper race!</v>
+
+18
+00:00:47.400 --> 00:00:49.000
+<c.cars.sound>Car engines</c>
+
+19
+00:00:49.000 --> 00:00:51.000
+<c.bigslide.left><c.cars.sound>Car engines</c></c>
+
+20
+00:00:52.000 --> 00:00:54.000
+<c.impact.bigger><c.wide>Incredible!!</c></c>
 
 <link rel="stylesheet" href="https://fonts.typotheque.com/WF-023273-010687.css" type="text/css" />
 https://www.typotheque.com/fonts/brenner
