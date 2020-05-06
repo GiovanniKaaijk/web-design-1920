@@ -1,4 +1,5 @@
 # Webdesign @cmda-minor-web 1920
+[Livelink](https://giovannikaaijk.github.io/web-design-1920/)
 
 Een rework van closed captions voor Marie van Driessche. Marie is Doof geboren, met een hoofdletter D. Geluid is voor haar abstract, dus vaak hebben closed captions weinig mening voor haar, dit is een oplossing hiervoor.
 
@@ -13,7 +14,7 @@ Een rework van closed captions voor Marie van Driessche. Marie is Doof geboren, 
 
 ## Beschrijving
 
-Het maken van dit vak was onderdeel van het vak <a hreh="https://github.com/cmda-minor-web/web-design-1920">Web Design</a>. Hier was het doel om Marie een betere ervaring te laten beleven van closed captions.
+Het maken van dit vak was onderdeel van het vak [https://github.com/cmda-minor-web/web-design-1920"](Web Design). Hier was het doel om Marie een betere ervaring te laten beleven van closed captions.
 
 ## Het probleem
 
