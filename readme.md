@@ -14,7 +14,7 @@ Een rework van closed captions voor Marie van Driessche. Marie is Doof geboren, 
 
 ## Beschrijving
 
-Het maken van dit vak was onderdeel van het vak [https://github.com/cmda-minor-web/web-design-1920](Web Design). Hier was het doel om Marie een betere ervaring te laten beleven van closed captions.
+Het maken van dit vak was onderdeel van het vak [Web Design](https://github.com/cmda-minor-web/web-design-1920). Hier was het doel om Marie een betere ervaring te laten beleven van closed captions.
 
 ## Het probleem
 
