@@ -32,6 +32,7 @@ Tijdens deze meeting legde Marie uit dat geluiden voor haar abstract zijn, hier 
 Binnen de huidige closed captions zaten ook nog bepaalde dingen die voor haar een onprettig gevoel gaven. Het was bijvoorbeeld vaak onduidelijk wie er precies aan het woord was, of ondertitels die niet synchroon liepen met de film.
 
 Voor dit gesprek had ik ook een klein concept in elkaar gezet, hier had ik het idee om het geluidsniveau te visualiseren samen met het spelen met bepaalde fonts. Dit om meer gevoel over te brengen bij de captions. Marie gaf aan dat het weergeven van het geluidsniveau geen toegevoegde waarde heeft, daarom heb ik dit weggehaald zodat er minder afleiding is binnen de video.
+
 Ontwerp:
 <details>
 <img src="https://user-images.githubusercontent.com/43671292/81172689-ff5b4e00-8f9e-11ea-8486-d3cf697ab55f.png" width="1100" />
