@@ -14,9 +14,9 @@ Een rework van closed captions voor Marie van Driessche. Marie is Doof geboren, 
 
 ## Beschrijving
 
-Het maken van dit vak was onderdeel van het vak [Web Design](https://github.com/cmda-minor-web/web-design-1920). Hier was het doel om Marie een betere ervaring te laten beleven van closed captions.
+Het maken van dit vak was onderdeel van het vak [Web Design](https://github.com/cmda-minor-web/web-design-1920). Hier was het doel om Marie een betere ervaring te laten beleven van closed captions. Om een betere ervaring te geven heb ik closed captions aan een cinematic van de F1 toegevoegd.
 
-## Het probleem
+## Het probleem (user scenario)
 
 Marie wilt een video van de F1 terugkijken, het is een fragment waar beelden snel overspringen op elkaar met weinig context. In het beeld verschijnt een caption met 'spannende muziek', maar dit kan Marie niet ervaren, zij weet dus niet hoe zij zich hierbij moet voelen. In de actergrond spelen geluiden af, geluiden om de kijker meer in de video te trekken. Hier komt echter geen caption van, Marie heeft op dit moment niet door dat zij iets mist. Door deze problemen krijgt zij een ander beeld van de video dan iemand die geluid kan ervaren.
 
