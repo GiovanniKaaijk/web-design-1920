@@ -51,3 +51,68 @@ Als ik terugkijk op dit project, zijn er een paar dingen die ik voortaan anders 
 - Als ik ooit nog remote moet testen, zou ik meerdere schermen opzetten, zodat ik goed de gezichtsuitdrukking kan zien tijdens het testen.
 - Ik denk dat het beter is om voortaan de app op de gebruiker zijn computer te hebben, zodat diegene alle controle heeft. Nu werd Marie toch een beetje geleid.
 - Eerder een concept opstellen, doordat ik de eerste keer weinig had, is eigenlijk een contactmoment vergooid. Dit is best zonde
+
+## Techniek
+
+Om dit te realiseren heb ik gebruik gemaakt van webVTT.js en p5.sound.js 
+
+Via het geluidniveau was het mogelijk om de captions groter of kleiner te maken, zodat dit overeen kwam met de video
+```js
+amplitude = new p5.Amplitude()
+let amplitudeLevel = amplitude.getLevel()
+```
+Met het amplitudelevel kon ik vervolgens een custom propertie binnen mijn CSS aanpassen om te tekstgrootte te veranderen.
+```js
+document.body.style.setProperty('--fontSize', `${Math.pow((amplitudeLevel + 1.2), 3.5)}rem`);
+```
+Via webVTT kon ik bepaalde classes aan stukken tekst geven, om deze beter te kunnen stijlen
+```
+00:00:16.250 --> 00:00:20.000
+<c.cars.sound>Car engines</c>
+
+00:00:29.300 --> 00:00:30.500
+<c.crash.impact>Coach: Nooooooo!</c>
+```
+Met de classes kon ik vervolgens bepalen welke captions, welke stijling kregen
+```css
+.captions span.sound {
+    font-size: var(--fontSize);
+}
+
+.captions .impact {
+    font-family: 'impact';
+}
+```
+
+De animaties heb ik toegevoegd aan de parentNode van de captions, omdat dit anders niet soepel verliep. Dit heb ik vervolgens getimed via een setTimeout
+```js
+if(document.querySelector('span.tilt-3')) {
+    let spanParent = document.querySelector('span.tilt-3').parentNode.parentNode.parentNode
+    spanParent.style.transform = 'rotate(2deg)'
+    let captions = document.querySelector('.captions')
+    if(slidetoggle === true) {
+        slidetoggle = false
+    captions.classList.add('slide')
+    setTimeout(() => {
+        captions.classList.remove('slide')
+        spanParent.style.transform = 'rotate(0deg)'
+        slidetoggle = true
+    }, 2000);
+    }
+}
+```
+
+```css
+.captions.slide {
+    animation: slide .75s ease-in forwards;
+}
+
+@keyframes slide {
+    from {
+        left:50%;
+    }
+    to {
+        left: 150%;
+    }
+}
+```
