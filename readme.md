@@ -1,4 +1,5 @@
 # Webdesign @cmda-minor-web 1920
+[Livelink](https://giovannikaaijk.github.io/web-design-1920/)
 
 Een rework van closed captions voor Marie van Driessche. Marie is Doof geboren, met een hoofdletter D. Geluid is voor haar abstract, dus vaak hebben closed captions weinig mening voor haar, dit is een oplossing hiervoor.
 
@@ -13,9 +14,9 @@ Een rework van closed captions voor Marie van Driessche. Marie is Doof geboren, 
 
 ## Beschrijving
 
-Het maken van dit vak was onderdeel van het vak <a hreh="https://github.com/cmda-minor-web/web-design-1920">Web Design</a>. Hier was het doel om Marie een betere ervaring te laten beleven van closed captions.
+Het maken van dit vak was onderdeel van het vak [Web Design](https://github.com/cmda-minor-web/web-design-1920). Hier was het doel om Marie een betere ervaring te laten beleven van closed captions. Om een betere ervaring te geven heb ik closed captions aan een cinematic van de F1 toegevoegd.
 
-## Het probleem
+## Het probleem (user scenario)
 
 Marie wilt een video van de F1 terugkijken, het is een fragment waar beelden snel overspringen op elkaar met weinig context. In het beeld verschijnt een caption met 'spannende muziek', maar dit kan Marie niet ervaren, zij weet dus niet hoe zij zich hierbij moet voelen. In de actergrond spelen geluiden af, geluiden om de kijker meer in de video te trekken. Hier komt echter geen caption van, Marie heeft op dit moment niet door dat zij iets mist. Door deze problemen krijgt zij een ander beeld van de video dan iemand die geluid kan ervaren.
 
@@ -32,6 +33,7 @@ Tijdens deze meeting legde Marie uit dat geluiden voor haar abstract zijn, hier 
 Binnen de huidige closed captions zaten ook nog bepaalde dingen die voor haar een onprettig gevoel gaven. Het was bijvoorbeeld vaak onduidelijk wie er precies aan het woord was, of ondertitels die niet synchroon liepen met de film.
 
 Voor dit gesprek had ik ook een klein concept in elkaar gezet, hier had ik het idee om het geluidsniveau te visualiseren samen met het spelen met bepaalde fonts. Dit om meer gevoel over te brengen bij de captions. Marie gaf aan dat het weergeven van het geluidsniveau geen toegevoegde waarde heeft, daarom heb ik dit weggehaald zodat er minder afleiding is binnen de video.
+
 Ontwerp:
 <details>
 <img src="https://user-images.githubusercontent.com/43671292/81172689-ff5b4e00-8f9e-11ea-8486-d3cf697ab55f.png" width="1100" />
